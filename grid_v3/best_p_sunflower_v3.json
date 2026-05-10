@@ -1,0 +1,38 @@
+{
+  "base": [
+    "time_index",
+    "GTK",
+    "SAT",
+    "veget_precip",
+    "evaporation",
+    "rf_sum_summer",
+    "mean_temp_summer",
+    "ndvi_veget",
+    "ndvi_m06",
+    "ndvi_peak_anom",
+    "water_deficit",
+    "rf_sum_spring",
+    "p_sunflower_lag1",
+    "p_sunflower_lag2",
+    "p_sunflower_ma5",
+    "p_vegetables_lag1",
+    "p_vegetables_lag2",
+    "s_sunflower_lag1",
+    "s_sugar_beet_lag1"
+  ],
+  "extra": [
+    "era5_spring_recharge",
+    "soil_temp_7_28cm_m06",
+    "rf_sum_apr",
+    "swc_0_7cm_m06"
+  ],
+  "alpha": 0.1,
+  "decay": 0.7,
+  "min_train": 11,
+  "label": "Подсолнечник",
+  "version": "v3",
+  "changes": "убран p_sunflower_ma3 из base (нестабилен: 7 фолдов +, 7 фолдов -, коэффициент меняет знак); добавлены в extra: rf_sum_apr (апрельские осадки, r=0.585 с ошибками), swc_0_7cm_m06 (влажность пов.слоя почвы июнь, ERA5).",
+  "mape_note": "MAPE 15.18% включает 2017 (ошибка +45.3% по организационной причине: ~49% площадей не убрано вовремя из-за нехватки техники при росте площадей +56%). MAPE без 2017: 13.15%.",
+  "mape": 15.1756,
+  "mape_no2017": 13.1517
+}

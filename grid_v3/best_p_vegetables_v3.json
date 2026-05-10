@@ -1,0 +1,36 @@
+{
+  "base": [
+    "time_index",
+    "GTK",
+    "SAT",
+    "veget_precip",
+    "evaporation",
+    "rf_sum_summer",
+    "mean_temp_summer",
+    "mean_temp_sep",
+    "rf_sum_sep",
+    "time_index_sq",
+    "p_grain_crops_lag1",
+    "p_vegetables_lag1",
+    "p_vegetables_lag2",
+    "p_vegetables_ma3",
+    "p_vegetables_ma5",
+    "p_sunflower_lag1",
+    "p_sugar_beet_lag1",
+    "p_potato_lag1",
+    "s_sugar_beet_lag1",
+    "s_potato_lag1"
+  ],
+  "extra": [
+    "pet_mm_m09_abs",
+    "swc_0_7cm_m07"
+  ],
+  "alpha": 50.0,
+  "decay": 1.0,
+  "min_train": 10,
+  "label": "Овощи",
+  "version": "v3",
+  "changes": "без изменений от v2",
+  "mape_note": "",
+  "mape": 8.0985
+}

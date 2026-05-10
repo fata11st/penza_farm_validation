@@ -1,0 +1,31 @@
+{
+  "base": [
+    "time_index",
+    "GTK",
+    "SAT",
+    "veget_precip",
+    "evaporation",
+    "rf_sum_summer",
+    "mean_temp_summer",
+    "ndvi_peak",
+    "ndvi_veget",
+    "ndvi_peak_anom",
+    "heat_x_moisture",
+    "p_grain_crops_lag1",
+    "p_grain_crops_lag2",
+    "p_grain_crops_ma3",
+    "p_sugar_beet_ma3"
+  ],
+  "extra": [
+    "snow_water_eq_mm_m03",
+    "frost_risk"
+  ],
+  "alpha": 0.5,
+  "decay": 0.95,
+  "min_train": 11,
+  "label": "Зерновые",
+  "version": "v3",
+  "changes": "без изменений от v2",
+  "mape_note": "",
+  "mape": 9.137
+}
